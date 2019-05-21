@@ -35,9 +35,7 @@ After preprocessing and loading the data, I built the model and trained it for 5
 The generator is capable of creating images that could be recognized easily as human faces with the following weakness.
 
 1. The generated images are noisy.
-
 2. Most of the generated images are white celebrity faces which is a cause of the biased dataset.
-
 3. The generated images contains adults only, no children images are generated due to the biased dataset that doesn't contain children images.
 
 I think that training on more faces images of different ages, colors and expressions will result in more variety of faces that could be generated. The human faces are complex. So, I believe that using a deeper network with an increasing number of epochs enable the model to learn more features hence generates more realistic face images.
